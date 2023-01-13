@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    background-color: var(--light-yellow-color);
+    height: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 26rem;
+}
+
+header div.logo img {
+    margin: 1.2rem 0 1.4rem 5rem;
+}
+
+header nav {
+    width: 90rem;
+    margin-left: 10rem;
+}
+
+header nav ul.navegation {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+}
+
+header nav ul.navegation li {
+    font: 400 1.2rem var(--font-nunito-sans);
+    color: var(--default-gray-color);
+}
+
+header nav ul.navegation li.imageUser {
+    margin-left: 40rem;
+}

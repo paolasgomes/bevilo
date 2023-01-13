@@ -1,0 +1,120 @@
+main section.searchOptions {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90rem;
+    margin-top: 3.5rem;
+}
+
+main section.searchOptions h2 {
+    font: 600 1.3rem var(--font-nunito-sans);
+    color: var(--dark-gray-color);
+    text-align: center;
+    padding-top: .8rem;
+}
+
+section.Cards {
+    width: 90rem;
+    height: 14rem;
+    margin: 3.5rem auto 0 auto;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+section.Cards div.Card {
+    width: 37rem;
+    height: 14rem;
+    background-color: var(--light-yellow-color);
+    display: flex;
+    border-radius: 8px;
+    margin: 0 auto;
+
+}
+
+section.Cards div.Card div.backgroundWineImage {
+    position: absolute;
+    padding-left: 3.5rem;
+}
+
+section.Cards div.Card div.wineImage {
+    position: relative;
+    bottom: .2rem;
+    padding-left: 3.5rem;
+}
+
+section.Cards div.Card div.cardsText {
+    padding-left: 1.2rem;
+}
+
+section.Cards div.Card div.cardsText div.curlsTop {
+    width: 7.5rem;
+    padding-left: 6.5rem;
+}
+
+section.Cards div.Card div.cardsText p {
+    font: 600 2rem var(--font-monteserrat);
+    color: var(--orange-color);
+    width: 14rem;
+    height: 6.5rem;
+    text-align: center;
+
+}
+
+section.Cards div.Card div.cardsText div.curlsBottom {
+    width: 6rem;
+    height: 2rem;
+    padding-left: 11.8rem;
+    padding-bottom: 1.5rem;
+}
+
+section.Cards div.CardTwo {
+    width: 37rem;
+    height: 14rem;
+    background-color: var(--pink-color);
+    display: flex;
+    border-radius: 8px;
+
+}
+
+section.Cards div.CardTwo div.backgroundWineImage {
+    position: absolute;
+    padding-left: 3.5rem;
+}
+
+section.Cards div.CardTwo div.wineImage {
+    position: relative;
+    bottom: .2rem;
+    padding-left: 3.5rem;
+}
+
+section.Cards div.CardTwo div.cardsText {
+    padding-left: 1.2rem;
+}
+
+section.Cards div.CardTwo div.cardsText div.curlsTop {
+    width: 7.5rem;
+    padding-left: 6.5rem;
+}
+
+section.Cards div.CardTwo div.cardsText p {
+    font: 600 2rem var(--font-monteserrat);
+    color: var(--dark-white-color);
+    width: 14rem;
+    height: 6.5rem;
+    text-align: center;
+
+}
+
+section.Cards div.CardTwo div.cardsText p span {
+    color: var(--default-yellow-color);
+}
+
+section.Cards div.CardTwo div.cardsText div.curlsBottom {
+    width: 6rem;
+    height: 2rem;
+    padding-left: 11.8rem;
+    padding-bottom: 1.5rem;
+}

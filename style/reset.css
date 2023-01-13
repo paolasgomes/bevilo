@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+:root {
+  --white-color: #f6f8f8;
+  --dark-white-color: #f4f2ec;
+
+  --light-yellow-color: #ebdcc7;
+  --medium-yellow-color: #ebe5d6;
+  --default-yellow-color: #d7ccaf;
+
+  --orange-color: #ce8c27;
+
+  --pink-color: #f08b80;
+
+  --light-gray-color: #4e4f50;
+  --default-gray-color: #424635;
+  --dark-gray-color: #424639;
+  --gray-color: #424635;
+
+  --black-color: #17191c;
+
+  --font-nunito-sans: "Nunito Sans", sans-serif;
+  --font-monteserrat: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 81.25%;
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 87.5%;
+  }
+}

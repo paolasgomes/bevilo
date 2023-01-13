@@ -1,0 +1,50 @@
+main section.authoredWines {
+    width: 90rem;
+    height: 30rem;
+    margin: 0 auto;
+    background-image: url('../assets/section-1/bg-section-1.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main section.authoredWines h1 {
+    font: 600 3rem var(--font-nunito-sans);
+    color: var(--white-color);
+    height: 10.5rem;
+    width: 20rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+main section.authoredWines div.nextSection {
+    padding-top: 2rem;
+}
+
+main section.authoredWines label input#search {
+    border: 0;
+    border-bottom: 1px solid var(--white-color);
+    background-color: transparent;
+    width: 24rem;
+    height: 2rem;
+    font: 300 1.3rem var(--font-nunito-sans);
+    color: var(--white-color);
+    padding: 2rem 0 .6rem 0;
+
+}
+
+main section.authoredWines label input::placeholder {
+    font: 300 1.3rem var(--font-nunito-sans);
+    color: var(--white-color);
+    text-align: center;
+    background-image: url('../assets/section-1/search.svg');
+    background-repeat: no-repeat;
+    background-position: 110px 2px;
+
+}
+
+main section.authoredWines label input:focus {
+    border: 0;
+    outline: 0;
+}

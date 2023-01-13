@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bevilo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/section-1.css" />
+    <link rel="stylesheet" href="style/searchOptions-Cards.css" />
+    <link rel="stylesheet" href="style/theBestOfWeek.css" />
+    <link rel="stylesheet" href="style/customer-offers.css" />
+    <link rel="stylesheet" href="style/acessToOffers.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="assets/header/logo.png" alt="" /></div>
+      <nav>
+        <ul type="none" class="navegation">
+          <li>Vinhos</li>
+          <li>Kits</li>
+          <li>Ofertas especiais</li>
+          <li>Blog</li>
+          <li class="imageUser"><img src="assets/header/usuario.svg" alt="" /></li>
+          <li class="imageShopping"><img src="assets/header/shopping-bag.svg" alt="" /></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="authoredWines">
+        <h1>Vinhos Autorais Exclusivos</h1>
+        <div class="nextSection">
+          <a href="#theBestOfWeek"><img src="assets/section-1/chevron-down.svg" alt="" /></a>
+        </div>
+        <label for="buscar">
+          <input type="text" id="search" placeholder="Buscar" />
+        </label>
+      </section>
+
+      <section class="searchOptions">
+        <div class="searchWine">
+          <img src="assets/section-search-options-cards/red-wine.png" alt="" />
+          <h2>Vinho Tinto</h2>
+        </div>
+
+        <div class="searchWine">
+          <img src="assets/section-search-options-cards/white-wine.png" alt="" />
+          <h2>Vinho Branco</h2>
+        </div>
+
+        <div class="searchWine">
+          <img src="assets/section-search-options-cards/rose-wine.png" alt="" />
+          <h2>Vinho Rosé</h2>
+        </div>
+
+        <div class="searchWine">
+          <img src="assets/section-search-options-cards/sparkling wine.png" alt="" />
+          <h2>Espumantes</h2>
+        </div>
+      </section>
+
+      <section class="Cards">
+        <div class="arrowToLeft">
+          <img src="assets/section-search-options-cards/arrow-left.svg" alt="" />
+        </div>
+
+        <div class="Card">
+          <div class="backgroundWineImage">
+            <img src="assets/section-search-options-cards/wine-background.png" alt="" />
+          </div>
+
+          <div class="wineImage">
+            <img src="assets/section-search-options-cards/wines.png" alt="" />
+          </div>
+
+          <div class="cardsText">
+            <div class="curlsTop">
+              <img src="assets/section-search-options-cards/curls.svg" alt="" />
+            </div>
+
+            <p>Os melhores vinhos com frete grátis</p>
+
+            <div class="curlsBottom">
+              <img src="assets/section-search-options-cards/curls-bottom.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="CardTwo">
+          <div class="backgroundWineImage">
+            <img src="assets/section-search-options-cards/wine-background-two.svg" alt="" />
+          </div>
+
+          <div class="wineImage">
+            <img src="assets/section-search-options-cards/wines.png" alt="" />
+          </div>
+
+          <div class="cardsText">
+            <div class="curlsTop">
+              <img src="assets/section-search-options-cards/curls-top-two.svg" alt="" />
+            </div>
+
+            <p>Os melhores vinhos com <span>frete grátis</span></p>
+
+            <div class="curlsBottom">
+              <img src="assets/section-search-options-cards/curls-bottom-two.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="arrowToRight">
+          <img src="assets/section-search-options-cards/arrow-right.svg" alt="" />
+        </div>
+      </section>
+
+      <div class="titleOfSection">
+        <h2>Os melhores da semana</h2>
+        <p>607 produtos encontrados</p>
+      </div>
+
+      <section id="theBestOfWeek"></section>
+
+      <div class="learnMoreButton">
+        <button>Ver mais</button>
+      </div>
+
+      <div class="titleOfSectionCustomerOffers">
+        <h2>Ofertas para novos clientes</h2>
+        <p>607 produtos encontrados</p>
+      </div>
+
+      <section class="customerOffers"></section>
+
+      <div class="learnMoreButton">
+        <button>Ver mais</button>
+      </div>
+
+      <section class="acessToOffers">
+        <div class="acessToOffersBackground">
+          <div class="acessToOffersText">
+            <h2>Tenha acesso antecipado a <span>ofertas incríveis!</span></h2>
+            <button>
+              Conheça nosso aplicativo
+              <img src="assets/acess-to-offers/arrow-acess.svg" alt="" />
+            </button>
+          </div>
+          <div class="acessToOffersImage">
+            <img src="assets/acess-to-offers/galaxy-s8.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <aside>
+        <div class="footerImage"><img src="assets/footer/logo.png" alt="" /></div>
+        <ul type="none" class="moreInformation">
+          <li class="optionSelect">Vinhos</li>
+          <li>Todos os vinhos</li>
+          <li>Tintos</li>
+          <li>Brancos</li>
+          <li>Rosés</li>
+          <li>Espumantes</li>
+        </ul>
+
+        <ul type="none" class="moreInformation">
+          <li class="optionSelect">Outros Serviços</li>
+          <li>Clube Vip</li>
+          <li>Acessórios</li>
+          <li>Outros produtos</li>
+        </ul>
+
+        <ul type="none" class="moreInformation">
+          <li class="optionSelect">Conta BVLO</li>
+          <li>Minha conta</li>
+          <li>Pedidos</li>
+          <li>Aplicativo</li>
+        </ul>
+
+        <ul type="none" class="moreInformation">
+          <li class="optionSelect">BVLO</li>
+          <li>Sobre nós</li>
+          <li>Blog</li>
+          <li>Suporte</li>
+        </ul>
+
+        <div class="socialNetworksAndApps">
+          <div class="socialNetworks">
+            <img src="assets/footer/Instagram.svg" alt="" />
+            <img src="assets/footer/facebook.svg" alt="" />
+            <img src="assets/footer/Youtube.svg" alt="" />
+            <img src="assets/footer/Twitter.svg" alt="" />
+            <img src="assets/footer/Linkedin.svg" alt="" />
+          </div>
+
+          <div class="Apps">
+            <img src="assets/footer/google-play-store.svg" alt="" />
+            <img src="assets/footer/app-store.svg" alt="" />
+          </div>
+        </div>
+      </aside>
+
+      <div class="horizontalLineFooter">
+        <img src="assets/footer/horizontal-line.svg" alt="" />
+      </div>
+
+      <div class="securityAndPayment">
+        <div class="security">
+          <p>Segurança:</p>
+          <div class="securityImage"><img src="assets/footer/site-blindado.svg" alt="" /></div>
+        </div>
+
+        <div class="paymentForms">
+          <p>Pagamento:</p>
+          <div class="paymentImages">
+            <img src="assets/footer/cartao-visa.svg" />
+            <img src="assets/footer/cartao-elo.svg" alt="" />
+            <img src="assets/footer/cartao-mastercard.svg" alt="" />
+            <img src="assets/footer/boleto.svg" alt="" />
+            <img src="assets/footer/google-pay.svg" alt="" />
+            <img src="assets/footer/apple-pay.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="horizontalLineFooterBottom">
+        <img src="assets/footer/horizontal-line.svg" alt="" />
+      </div>
+
+      <div class="Copyright">
+        <p>Copyright 2021 © Bevilo</p>
+      </div>
+    </footer>
+
+    <script src="javascript/main.js"></script>
+  </body>
+</html>

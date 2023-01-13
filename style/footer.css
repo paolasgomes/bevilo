@@ -1,0 +1,108 @@
+footer {
+    width: 100%;
+    height: auto;
+}
+
+footer aside {
+margin: 0 auto;
+    padding-top: 5rem;
+    width: 90rem;
+    display: flex;
+    gap: 4rem;
+}
+
+footer aside div.footerImage {
+    padding-left: 5rem;
+}
+
+footer aside ul.moreInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 1.5rem;
+}
+
+footer aside ul.moreInformation li.optionSelect {
+    font: 600 1.2rem var(--font-nunito-sans);
+    color: var(--light-gray-color);
+}
+
+footer aside ul.moreInformation li {
+    font: 300 1.2rem var(--font-nunito-sans);
+    color: var(--light-gray-color);
+}
+
+footer aside div.socialNetworksAndApps {
+    width: 16.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+footer aside div.socialNetworksAndApps div.socialNetworks {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    gap: .5rem;
+}
+
+footer aside div.socialNetworksAndApps div.Apps {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+footer div.horizontalLineFooter {
+display: flex;
+justify-content: center;
+margin-top: 4rem;
+}
+
+footer div.securityAndPayment {
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+footer div.securityAndPayment div.security {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer div.securityAndPayment div.security p {
+    font: 400 1.2rem var(--font-nunito-sans);
+    color: var(--light-gray-color);
+
+}
+
+footer div.securityAndPayment div.paymentForms {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+footer div.securityAndPayment div.paymentForms p {
+    font: 400 1.2rem var(--font-nunito-sans);
+    color: var(--light-gray-color);
+    margin-right: .5rem;
+}
+
+footer div.horizontalLineFooterBottom {
+    display: flex;
+    justify-content: center;
+}
+
+footer div.Copyright {
+    height: 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div.Copyright p {
+    font: 400 1rem var(--font-monteserrat);
+    color: var(--light-gray-color);
+}

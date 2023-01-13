@@ -1,0 +1,50 @@
+section.acessToOffers {
+    width: 90rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    margin: 10rem auto 0 auto;
+}
+
+section.acessToOffers div.acessToOffersBackground {
+    width: 90rem;
+    height: 25rem;
+    background-image: url('../assets/acess-to-offers/background-form.svg');
+    background-repeat: no-repeat;
+    background-position-x: 36rem;
+    display: flex;
+    background-color: var(--medium-yellow-color);
+}
+
+section.acessToOffers div.acessToOffersBackground div.acessToOffersText {
+    width: 23rem;
+    height: 9rem;
+    margin: 5rem 0 0 7rem;
+}
+
+section.acessToOffers div.acessToOffersBackground div.acessToOffersText h2 {
+    font: 700 2.8rem var(--font-nunito-sans);
+    color: var(--light-gray-color);
+    line-height: 3rem;
+}
+
+section.acessToOffers div.acessToOffersBackground div.acessToOffersText h2 span {
+    color: var(--orange-color);
+}
+
+section.acessToOffers div.acessToOffersBackground div.acessToOffersText button {
+    font: 400 1.5rem var(--font-nunito-sans);
+    color: var(--light-gray-color);
+    border: 0;
+    background-color: transparent;
+    margin-top: 1.5rem
+}
+
+section.acessToOffers div.acessToOffersBackground div.acessToOffersText button img{
+    margin: 0 0 1px .3rem;
+}
+section.acessToOffers div.acessToOffersBackground div.acessToOffersImage {
+    position: relative;
+    bottom: 90px;
+    left: 180px;
+}

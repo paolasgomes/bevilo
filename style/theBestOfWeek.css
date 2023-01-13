@@ -1,0 +1,89 @@
+div.titleOfSection {
+    display: flex;
+    gap: 56rem;
+    align-items: center;
+    width: 90rem;
+    margin: 7.5rem auto 0 auto;
+}
+
+div.titleOfSection h2 {
+    font: 600 2rem var(--font-nunito-sans);
+    color: var(--black-color);
+
+}
+
+div.titleOfSection p {
+    font: 300 1rem var(--font-nunito-sans);
+}
+
+section#theBestOfWeek {
+    width: 90rem;
+    margin: 2rem auto 0 auto;
+    display: flex;
+    gap: 11.5rem;
+
+}
+
+section#theBestOfWeek div.theBestOfWeekCards {
+    height: 30rem;
+    width: 25rem;
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url('../assets/the-best-of-week/background-card.png');
+    background-repeat: no-repeat;
+    background-position: 85px 60px;
+}
+
+section#theBestOfWeek div.theBestOfWeekCards div.theBestOfWeekText {
+    text-align: center;
+}
+
+section#theBestOfWeek div.theBestOfWeekCards div.theBestOfWeekText h3 {
+    font: 700 1.2rem var(--font-nunito-sans);
+    color: var(--default-gray-color);
+
+}
+
+section#theBestOfWeek div.theBestOfWeekCards div.theBestOfWeekText p {
+    font: 600 1rem var(--font-nunito-sans);
+    color: var(--gray-color);
+    padding: .3rem 0 .5rem 0;
+}
+
+section#theBestOfWeek div.theBestOfWeekCards div.theBestOfWeekText div.starsAvaliation {
+    margin-bottom: 1.5rem;
+}
+
+section#theBestOfWeek div.theBestOfWeekCards div.theBestOfWeekText button {
+    border: 0;
+    background-color: transparent;
+    text-transform: uppercase;
+    font: 600 1rem var(--font-nunito-sans);
+    padding: .5rem 1.2rem;
+    border: 1px solid var(--default-gray-color);
+    border-radius: 50%;
+}
+
+
+main div.learnMoreButton {
+    margin: 4.5rem auto 0 auto;
+    background-image: url('../assets/the-best-of-week/horizontal-line.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 90rem;
+    background-position-y: 20px;
+}
+
+main div.learnMoreButton button {
+    font: 600 1rem var(--font-nunito-sans);
+    color: white;
+    border: 0;
+    background-color: var(--default-gray-color);
+    padding: .8rem 2rem;
+    border-radius: 50%;
+}
